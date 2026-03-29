@@ -52,4 +52,7 @@ def calculate_BMI():
 button = tk.Button(app, text = "Xem kết quả", command = calculate_BMI)
 button.pack(pady = 10)
 
+exit_button = tk.Button(app, text = "Thoát", command = app.destroy)
+exit_button.pack()
+
 app.mainloop()
